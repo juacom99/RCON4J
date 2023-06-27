@@ -37,7 +37,7 @@ public class Client
         try
         {
             RCONClient cli=new RCONClient();
-            cli.connect(new InetSocketAddress(3002),"changeme");
+            cli.connect(new InetSocketAddress(14884),"changeme");
             
             
             Scanner in=new Scanner(System.in);
